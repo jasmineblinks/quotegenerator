@@ -13,11 +13,11 @@ function handleSubmit() {
     " — Audrey Hepburn":
       'Nothing is impossible, the word itself says ‘I’m possible’!."',
   };
-  //   let randomAuthors = Object.keys(quotes);
-  //   let authorPicker =
-  //     randomAuthors[Math.floor(Math.random() * randomAuthors.length)];
-  //   let quote = quotes[authorPicker];
-  //   document.getElementById("quote").innerHTML = quote;
-  //   document.getElementById("author").innerHTML = authorPicker;
+  let randomAuthors = Object.keys(quotes);
+  let authorPicker =
+    randomAuthors[Math.floor(Math.random() * randomAuthors.length)];
+  let quote = quotes[authorPicker];
+  document.getElementById("quote").innerHTML = quote;
+  document.getElementById("author").innerHTML = authorPicker;
 }
 handleSubmit();
