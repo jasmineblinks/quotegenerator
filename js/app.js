@@ -12,6 +12,15 @@ function handleSubmit() {
       '"Perfection is not attainable, but if we chase perfection we can catch excellence."',
     " — Audrey Hepburn":
       'Nothing is impossible, the word itself says ‘I’m possible’!."',
+    " — Nelson Mandela":
+      '"There is no passion to be found in playing small — in settling for a life that is less than you are capable of living."',
+    " — Mahatma Gandhi": '"The future depends on what you do today."',
+    " — Stephen Covey":
+      '"I am not a product of my circumstances. I am a product of my decisions."',
+    " — Albert Einstein":
+      '"Strive not to be a success, but rather to be of value."',
+    " — Farrah Gray":
+      '"Build your own dreams, or someone else will hire you to build theirs."',
   };
   let randomAuthors = Object.keys(quotes);
   let authorPicker =
